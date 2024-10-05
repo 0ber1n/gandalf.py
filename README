@@ -1,0 +1,22 @@
+gandalf.py is a simple reverse and strip script. This script takes as many strings as you want, then reverses them and compares the characters in each posiiton. The final output is a single string of the cleaned up string. 
+
+Special notes:
+-Hitting enter on the prompt will end the script and output the results.
+-This is only good for equal length strings at the moment
+See example below:
+
+└─$ python3 reverse.py
+Enter string to reverse (enter to print results): eciqn
+Enter string to reverse (enter to print results): ecion
+Enter string to reverse (enter to print results): ecien
+Enter string to reverse (enter to print results): ecipn
+Enter string to reverse (enter to print results): 
+The strings reverse are:
+nqice
+noice
+neice
+npice
+
+The unique string from all of them is: 
+nice
+           
